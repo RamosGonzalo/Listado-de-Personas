@@ -1,0 +1,89 @@
+html {
+    background-color: #2196f3;
+    min-height: 1000px;
+    font-family: "helvetica neue";
+    background: #2196f3;
+    background: linear-gradient(to left, #311b92, #9575cd);
+}
+
+h1 {
+    color: #fff;
+    padding: 10px;
+}
+
+.contenedor {
+    max-width: 400px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+
+#cabecero {
+    background-color: #1a237e;
+    text-align: center;
+}
+
+.elemento {
+    min-height: 70px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+}
+
+.elemento:last-child {
+    border-bottom: 0;
+}
+
+input[type="checkbox"] {
+    margin: 20px;
+}
+
+p {
+    margin: 0;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #00204a;
+}
+
+form {
+    text-align: center;
+    margin-left: 20px;
+}
+
+button {
+    min-height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #1a237e;
+    color: #fff;
+    font-size: 35px;
+    border-width: 0;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #3949ab;
+}
+
+input[type="text"] {
+    text-align: center;
+    height: 60px;
+    top: 10px;
+    border: none;
+    background: transparent;
+    font-weight: 200;
+    width: 40%;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    box-shadow: inset 0 -3px 0 0 #3f51b5;
+}
+
+::placeholder {
+    color: grey;
+    opacity: 1;
+}
